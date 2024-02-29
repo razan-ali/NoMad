@@ -1,0 +1,109 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a NoMad bot."
+
+  utter_answer_valid_work_experience:
+    - text: "Valid work experience includes working in accounting and auditing offices or companies for at least three years with a certified public accountant having a minimum of five years of experience post-license. Alternatively, experience in government agencies, joint-stock companies, or establishments with financial statements audited by a certified public accountant is also valid."
+
+  utter_enter_documents:
+    - text: "Tourists should carry a passport and an entry visa if required when entering Saudi Arabia."
+
+  utter_gifts_restriction:
+    - text: "No, but it's important to ensure the gifts do not conflict with local values and traditions."
+
+  utter_alcohol_usage:
+    - text: "No, consuming alcohol is illegal in the Kingdom of Saudi Arabia."
+
+  utter_dress_code:
+    - text: "It's preferable to wear modest clothing that covers sensitive parts only, and you can wear what you want otherwise."
+
+  utter_mobile_phone_usage:
+    - text: "No, using a mobile phone while driving is a legal offense in Saudi Arabia."
+
+  utter_photography_rules:
+    - text: "No, but permission is required before taking photos in certain sensitive locations such as airports and government facilities."
+
+  utter_smoking_public:
+    - text: "No, laws prohibit smoking in public places, and fines may be applied to violators."
+
+  utter_shop_closing_times:
+    - text: "Working hours vary according to the place and business activity, but shops usually close late in the evening."
+
+  utter_public_transportation_laws:
+    - text: "Yes, passengers must respect the rules of order and discipline when using public transportation."
+
+  utter_beach_swimming_restrictions:
+    - text: "Some beaches may be designated for men or women only, and local rules and instructions must be followed."
+
+  utter_non_muslim_religious_activities:
+    - text: "It is preferable not to practice non-Muslim religious activities openly."
+
+  utter_public_prayers:
+    - text: "It is preferable to perform prayers in mosques and designated places for that purpose."
+
+  utter_public_hugging:
+    - text: "It's advised to refrain from public displays of hugging in public places."
+
+  utter_traffic_law_penalties:
+    - text: "Financial fines and even imprisonment can be imposed in certain cases for breaking traffic laws."
+
+  utter_carrying_firearms_tourist:
+    - text: "No, carrying firearms by tourists without a special license is prohibited."
+
+  utter_night_curfew:
+    - text: "Saudi Arabia is considered one of the safest countries, and there is no specific curfew for going out at night."
+
+  utter_women_public_places:
+    - text: "No, there are no such restrictions on Saudi women entering public places without a male guardian."
+
+  utter_prayer_times_stop:
+    - text: "There are specific times for the five daily prayers, and it is respectful for people to cease work or activity when the prayer begins."
+
+  utter_currency_exchange_facilities:
+    - text: "Yes, you can easily exchange currency at airports and banks, as well as at some currency exchange offices."
+
+  utter_official_language:
+    - text: "The official language is Arabic, but English is commonly and widely used in tourist and commercial areas."
+
+  utter_report_to_police_in_english:
+    - text: "Yes, reports to the police can be made in English in some cases, but Arabic is the state's official language."
+
+  utter_paying_with_credit_card:
+    - text: "Yes, credit cards can be used in most shops and restaurants, but it's advisable to verify card acceptance before making a purchase."
+
+  utter_carrying_cash_restrictions:
+    - text: "Cash exceeding the allowed limit is subject to financial declaration and reporting to the relevant authorities."
+
+  utter_women_wearing_hijabs:
+    - text: "It's not legally required for women to wear a hijab or abaya, dressing modestly in public is a cultural norm and a sign of respect for local customs."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

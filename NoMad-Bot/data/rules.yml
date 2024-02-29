@@ -1,0 +1,144 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Provide answer for valid work experience question
+  steps:
+  - intent: ask_valid_work_experience
+  - action: utter_answer_valid_work_experience
+
+
+- rule: Respond to enter_documents query
+  steps:
+  - intent: enter_documents
+  - action: utter_enter_documents
+  
+
+- rule: Respond to gifts_restriction query
+  steps:
+  - intent: gifts_restriction
+  - action: utter_gifts_restriction
+
+- rule: Respond to alcohol_usage query
+  steps:
+  - intent: alcohol_usage
+  - action: utter_alcohol_usage
+  
+- rule: Respond to dress_code query
+  steps:
+  - intent: dress_code
+  - action: utter_dress_code
+  
+- rule: Respond to mobile_phone_usage query
+  steps:
+  - intent: mobile_phone_usage
+  - action: utter_mobile_phone_usage
+  
+- rule: Respond to photography_rules query
+  steps:
+  - intent: photography_rules
+  - action: utter_photography_rules
+  
+- rule: Respond to smoking_public query
+  steps:
+  - intent: smoking_public
+  - action: utter_smoking_public
+
+- rule: Respond to shop_closing_times query
+  steps:
+  - intent: shop_closing_times
+  - action: utter_shop_closing_times
+  
+- rule: Respond to public_transportation_laws query
+  steps:
+  - intent: public_transportation_laws
+  - action: utter_public_transportation_laws
+  
+- rule: Respond to beach_swimming_restrictions query
+  steps:
+  - intent: beach_swimming_restrictions
+  - action: utter_beach_swimming_restrictions
+  
+- rule: Respond to non_muslim_religious_activities query
+  steps:
+  - intent: non_muslim_religious_activities
+  - action: utter_non_muslim_religious_activities
+  
+- rule: Respond to public_prayers query
+  steps:
+  - intent: public_prayers
+  - action: utter_public_prayers
+
+- rule: Respond to public_hugging query
+  steps:
+  - intent: public_hugging
+  - action: utter_public_hugging
+  
+- rule: Respond to traffic_law_penalties query
+  steps:
+  - intent: traffic_law_penalties
+  - action: utter_traffic_law_penalties
+  
+- rule: Respond to carrying_firearms_tourist query
+  steps:
+  - intent: carrying_firearms_tourist
+  - action: utter_carrying_firearms_tourist
+  
+- rule: Respond to night_curfew query
+  steps:
+  - intent: night_curfew
+  - action: utter_night_curfew
+  
+- rule: Respond to women_public_places query
+  steps:
+  - intent: women_public_places
+  - action: utter_women_public_places
+  
+- rule: Respond to prayer_times_stop query
+  steps:
+  - intent: prayer_times_stop
+  - action: utter_prayer_times_stop
+  
+- rule: Respond to currency_exchange_facilities query
+  steps:
+  - intent: currency_exchange_facilities
+  - action: utter_currency_exchange_facilities
+
+- rule: Respond to official_language query
+  steps:
+  - intent: official_language
+  - action: utter_official_language
+  
+- rule: Respond to report_to_police_in_english query
+  steps:
+  - intent: report_to_police_in_english
+  - action: utter_report_to_police_in_english
+  
+- rule: Respond to paying_with_credit_card query
+  steps:
+  - intent: paying_with_credit_card
+  - action: utter_paying_with_credit_card
+  
+- rule: Respond to carrying_cash_restrictions query
+  steps:
+  - intent: carrying_cash_restrictions
+  - action: utter_carrying_cash_restrictions
+
+- rule: Respond to women_wearing_hijabs query
+  steps:
+  - intent: women_wearing_hijabs
+  - action: utter_women_wearing_hijabs
+
+ 
+
+

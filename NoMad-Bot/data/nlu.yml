@@ -1,0 +1,298 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: ask_valid_work_experience
+  examples: |
+    - What counts as valid work experience for accounting?
+    - How is work experience validated in accounting?
+    - What are the requirements for accounting work experience?
+
+- intent: enter_documents
+  examples: |
+    - What documents do I need to enter Saudi Arabia as a tourist?
+    - Which papers should a visitor carry to Saudi Arabia?
+    - What are the required documents for tourists entering Saudi Arabia?
+    - As a tourist, what should I bring in terms of documents to Saudi Arabia?
+    - What paperwork is necessary for tourists to enter Saudi Arabia?
+
+- intent: gifts_restriction
+  examples: |
+    - Is there a restriction on gift-giving in Saudi Arabia?
+    - Can tourists give gifts to people in Saudi Arabia?
+    - Are there any rules about presenting gifts in the Kingdom?
+    - What should I know about giving gifts in Saudi Arabia?
+    - Are there limitations on what kinds of gifts can be given in Saudi Arabia?
+
+  
+- intent: alcohol_usage
+  examples: |
+    - Is it permissible to consume alcohol in Saudi Arabia?
+    - Can tourists drink alcohol in the Kingdom?
+    - Is alcohol consumption legal in Saudi Arabia?
+    - What are the rules regarding alcohol in Saudi Arabia?
+    - Are visitors allowed to drink alcohol in Saudi Arabia?
+
+- intent: dress_code
+  examples: |
+    - What should tourists wear in Saudi Arabia?
+    - How should I dress when visiting Saudi Arabia?
+    - What is considered appropriate attire for visitors in Saudi Arabia?
+    - Can you explain the dress code for tourists in Saudi Arabia?
+    - What are the clothing guidelines for tourists in the Kingdom?
+
+- intent: mobile_phone_usage
+  examples: |
+    - Is it allowed to use a phone while driving in Saudi Arabia?
+    - Can I make calls while driving in the Kingdom?
+    - Is mobile phone use permitted while driving in Saudi Arabia?
+    - What's the law on using cell phones during driving in Saudi Arabia?
+    - Are drivers allowed to use mobile phones in Saudi Arabia?
+
+- intent: photography_rules
+  examples: |
+    - Do I need permission to photograph in public places in Saudi Arabia?
+    - Can tourists take pictures in public areas in the Kingdom?
+    - What are the rules for photography in public in Saudi Arabia?
+    - Is it okay to take photos in public places in Saudi Arabia?
+    - Are there any restrictions on photography in Saudi public spaces?
+
+- intent: smoking_public
+  examples: |
+    - Is smoking in public places allowed in Saudi Arabia?
+    - Can I smoke in open areas in the Kingdom?
+    - What's the regulation on public smoking in Saudi Arabia?
+    - Are there any fines for smoking in public places in Saudi Arabia?
+    - Is public smoking permitted in the Kingdom?
+- intent: shop_closing_times
+  examples: |
+    - What time do stores close in Saudi Arabia?
+    - Until what hour are shops open in the Kingdom?
+    - Can you tell me the closing times for shops in Saudi Arabia?
+    - What are the usual working hours for retail stores in Saudi Arabia?
+    - How late are businesses open in Saudi Arabia?
+
+- intent: public_transportation_laws
+  examples: |
+    - Are there specific rules for using public transit in Saudi Arabia?
+    - What laws govern the use of public transportation in the Kingdom?
+    - Can you explain the regulations for public transportation users in Saudi Arabia?
+    - What should I know about the rules of public transit in Saudi Arabia?
+    - Are there any special requirements for passengers on public transport in Saudi Arabia?
+
+- intent: beach_swimming_restrictions
+  examples: |
+    - Can I swim at any beach in Saudi Arabia?
+    - Are there gender-specific beaches in Saudi Arabia?
+    - What are the rules for swimming at beaches in the Kingdom?
+    - Can you swim freely at Saudi Arabian beaches?
+    - Are there designated beaches for men or women in Saudi Arabia?
+
+- intent: non_muslim_religious_activities
+  examples: |
+    - Are there restrictions on non-Muslim religious practices in Saudi Arabia?
+    - Can non-Muslims practice their religion openly in the Kingdom?
+    - What should non-Muslims know about practicing their religion in Saudi Arabia?
+    - Is it permissible for non-Muslims to conduct religious activities in public?
+    - How can non-Muslims practice their faith in Saudi Arabia?
+
+- intent: public_prayers
+  examples: |
+    - Can I perform prayers in public places in Saudi Arabia?
+    - Is it acceptable to pray in open areas in the Kingdom?
+    - Where is it preferable to perform prayers in Saudi Arabia?
+    - Are there designated places for praying in public in Saudi Arabia?
+    - What are the guidelines for performing prayers in public areas in the Kingdom?
+  
+- intent: public_hugging
+  examples: |
+    - Can I exchange hugs with the opposite sex in public places?
+    - Is it appropriate to hug in public areas in Saudi Arabia?
+    - What is the etiquette on public displays of affection in Saudi Arabia?
+    - Are public hugs acceptable in Saudi Arabia?
+    - Is hugging in public places advised against in the Kingdom?
+
+- intent: traffic_law_penalties
+  examples: |
+    - What are the penalties for breaking traffic laws?
+    - Can breaking traffic rules result in imprisonment in Saudi Arabia?
+    - What consequences do traffic law violations carry in the Kingdom?
+    - Are there financial fines for traffic offenses in Saudi Arabia?
+    - What happens if I break a traffic law in Saudi Arabia?
+
+- intent: carrying_firearms_tourist
+  examples: |
+    - Can I carry firearms as a tourist in Saudi Arabia?
+    - Is it legal for tourists to have guns in Saudi Arabia?
+    - What are the rules on tourists carrying firearms in the Kingdom?
+    - Are tourists allowed to carry firearms in Saudi Arabia?
+    - Do tourists need a special license to carry firearms in Saudi Arabia?
+
+- intent: night_curfew
+  examples: |
+    - Is there a curfew for going out at night in Saudi Arabia?
+    - Can I go out at night in Saudi Arabia without restrictions?
+    - What are the rules for nighttime outings in Saudi Arabia?
+    - Is there a specific time I need to be home at night in Saudi Arabia?
+    - Does Saudi Arabia enforce a night curfew?
+
+- intent: women_public_places
+  examples: |
+    - Are there restrictions on Saudi women entering public places without a male guardian?
+    - Can Saudi women go to public places alone?
+    - Do Saudi women need a male guardian to enter public places?
+    - What are the rules for Saudi women visiting public areas?
+    - Is a male guardian required for Saudi women in public spaces?
+
+- intent: prayer_times_stop
+  examples: |
+    - Is there a specific time for prayer, and must one stop when prayer begins?
+    - Do I need to cease activities during prayer times in Saudi Arabia?
+    - What are the guidelines for the five daily prayers in Saudi Arabia?
+    - Should work stop during the prayer times in the Kingdom?
+    - How are prayer times observed in public and workspaces in Saudi Arabia?
+
+- intent: currency_exchange_facilities
+  examples: |
+    - Can I easily exchange currency at airports and banks in Saudi Arabia?
+    - Where can I exchange foreign money in Saudi Arabia?
+    - Are currency exchange services readily available at Saudi airports?
+    - How convenient is it to exchange currency in the Kingdom?
+    - What are the options for currency exchange in Saudi Arabia?
+  
+- intent: official_language
+  examples: |
+    - What is the official language in the Kingdom of Saudi Arabia?
+    - Can you tell me about the language spoken in Saudi Arabia?
+    - Is English widely used in Saudi Arabia?
+    - What language is officially used in Saudi Arabia?
+    - Are tourists able to communicate in English within Saudi Arabia?
+
+- intent: report_to_police_in_english
+  examples: |
+    - Can I report to the police in English?
+    - Is it possible to make police reports in English in Saudi Arabia?
+    - Do the police accept reports in English?
+    - Can non-Arabic speakers report incidents to the police in English?
+    - What language should I use when reporting to the police in Saudi Arabia?
+
+- intent: paying_with_credit_card
+  examples: |
+    - Can I pay using a credit card in most shops and restaurants?
+    - Are credit cards widely accepted in Saudi Arabia?
+    - Do most establishments in Saudi Arabia accept credit card payments?
+    - Is it common to use credit cards for purchases in Saudi Arabia?
+    - Should I check for credit card acceptance before making a purchase in Saudi Arabia?
+
+- intent: carrying_cash_restrictions
+  examples: |
+    - Are there restrictions on carrying cash when entering the country?
+    - What's the limit for carrying cash into Saudi Arabia?
+    - Do I need to declare cash at customs in Saudi Arabia?
+    - How much cash can I bring into Saudi Arabia without declaring?
+    - What are the regulations for bringing cash into Saudi Arabia?
+  
+- intent: women_wearing_hijabs
+  examples: |
+    - Do women need to wear hijabs in Saudi Arabia?
+    - Is it a legal requirement for women to wear a hijab or abaya in Saudi Arabia?
+    - What is the dress code for women in Saudi Arabia regarding hijabs?
+    - Are female tourists expected to wear a hijab in Saudi Arabia?
+    - How should women dress in public spaces in Saudi Arabia?
+
+  
+
+
+
+
+
+
